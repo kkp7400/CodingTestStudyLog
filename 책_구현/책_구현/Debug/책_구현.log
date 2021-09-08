@@ -1,3 +1,3 @@
 ﻿  책_구현.cpp
-C:\Users\권순형\Desktop\CodingTestStudyLog\책_구현\책_구현\책_구현.cpp(28,35): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  책_구현.vcxproj -> C:\Users\권순형\Desktop\CodingTestStudyLog\책_구현\Debug\책_구현.exe
+C:\Users\현상\Desktop\Programming_27\CodingTestStudyLog\책_구현\책_구현\책_구현.cpp(30,35): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  책_구현.vcxproj -> C:\Users\현상\Desktop\Programming_27\CodingTestStudyLog\책_구현\Debug\책_구현.exe
