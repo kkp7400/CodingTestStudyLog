@@ -1,0 +1,33 @@
+﻿  좌표압축.cpp
+C:\Users\user\Desktop\CodingTestStudyLog\좌표압축\좌표압축.cpp(30,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\CodingTestStudyLog\좌표압축\좌표압축.cpp(33,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\CodingTestStudyLog\좌표압축\좌표압축.cpp(49,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtree(1279,36): error C2100: 간접 참조가 잘못되었습니다.
+C:\Users\user\Desktop\CodingTestStudyLog\좌표압축\좌표압축.cpp(25): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert<int>(_Iter,_Iter)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Kty=int,
+              _Ty=int,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,int>>,
+              _Iter=int
+          ]
+C:\Users\user\Desktop\CodingTestStudyLog\좌표압축\좌표압축.cpp(25): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert<int>(_Iter,_Iter)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Kty=int,
+              _Ty=int,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,int>>,
+              _Iter=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\algorithm(7399,45): error C2676: 이항 '-': 'const std::_Tree_unchecked_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,int>>>>'이(가) 이 연산자를 정의하지 않거나 미리 정의된 연산자에 허용되는 형식으로의 변환을 정의하지 않습니다.
+C:\Users\user\Desktop\CodingTestStudyLog\좌표압축\좌표압축.cpp(28): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::sort<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,int>>>>,bool(__cdecl *)(const std::pair<int,int> &,const std::pair<int,int> &)>(const _RanIt,const _RanIt,_Pr)'에 대한 참조를 확인하세요.
+          with
+          [
+              _RanIt=std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,int>>>>,
+              _Pr=bool (__cdecl *)(const std::pair<int,int> &,const std::pair<int,int> &)
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\algorithm(7399,5): error C2672: '_Sort_unchecked': 일치하는 오버로드된 함수가 없습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\algorithm(7399,1): error C2780: 'void std::_Sort_unchecked(_RanIt,_RanIt,iterator_traits<_Iter>::difference_type,_Pr)': 인수가 4개 있어야 하는데 3개를 사용했습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\algorithm(7365): message : 'std::_Sort_unchecked' 선언을 참조하십시오.
